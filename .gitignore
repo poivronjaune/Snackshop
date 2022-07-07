@@ -5,6 +5,7 @@ P-log*.*
 PourIsa*.*
 remove.txt
 dir_on*
+*.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
