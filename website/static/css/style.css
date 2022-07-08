@@ -1,0 +1,61 @@
+:root {
+    --tmp_fill: rgb(244, 185, 238);
+    /*    --clr-primary: #202302;
+    --clr-secondary: #00100d;
+    --clr-accent: #ff7750; */
+    
+    --clr-primary: #000000;
+    --clr-secondary: #fdfdfd;
+    --clr-accent: #ff7750;
+
+    --background: var(--clr-secondary);
+    --forground: var(--clr-primary);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: var(--background);
+}
+
+.container{
+    max-width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background-color: var(--tmp_fill);
+}
+
+.header{
+    color: var(--forground); 
+}
+
+.content{
+    color: var(--forground);
+}
+
+.footer{
+    color: var(--forground);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px;
+    background-color: var(--tmp_fill);
+}
+
+
+.nav ul li{
+    text-align: right;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: var(--forground);
+}
